@@ -1,328 +1,276 @@
-# Linear Algebra Roadmap for Data Science
+# Linear Algebra, Probability, and Statistics Roadmap
 
-This roadmap offers a comprehensive guide to the fundamental and advanced topics in Linear Algebra essential for Machine Learning (ML). It is designed to help learners and practitioners navigate through the key concepts and operations relevant to ML algorithms and data structures.
+Welcome to the Linear Algebra, Probability, and Statistics Roadmap repository! This repository provides a comprehensive guide to the fundamental and advanced topics in Linear Algebra, Probability, and Statistics essential for Data Science and Machine Learning.
 
-## Table of Contents
-
-- [Scalars](#scalars)
-- [Vectors](#vectors)
-- [Matrices](#matrices)
-- [Dot and Cross Products](#dot-and-cross-products)
-- [Tensors](#tensors)
-- [Eigenvalues and Eigenvectors](#eigenvalues-and-eigenvectors)
-- [Matrix Factorization Techniques](#matrix-factorization-techniques)
-- [Advanced Topics](#advanced-topics)
-
-## Scalars
-
-### What are Scalars?
-
-## Vectors
-
-### Introduction to Vectors
-
-- Row Vector and Column Vector
-
-### Vector Operations
-
-- Distance from Origin
-- Euclidean Distance between 2 Vectors
-- Scalar and Vector Addition/Subtraction (Shifting)
-- Scalar and Vector Multiplication/Division (Scaling)
-- Vector and Vector Addition/Subtraction
-
-### Advanced Vector Operations
-
-- Dot Product of 2 Vectors
-- Angle between 2 Vectors
-- Unit Vectors
-- Projection of a Vector
-- Basis Vectors
-
-### Vector Properties
-
-- Equation of a Line in n-Dimensions
-- Vector Norms
-- Linear Independence
-- Vector Spaces
-
-## Matrices
-
-### Foundations of Matrices
-
-- What are Matrices?
-- Types of Matrices
-  - Orthogonal Matrices
-  - Symmetric Matrices
-  - Diagonal Matrices
-
-### Matrix Operations
-
-- Matrix Equality
-- Scalar Operations on Matrices
-- Matrix Addition and Subtraction
-- Matrix Multiplication
-- Transpose of a Matrix
-
-### Determinants and Inverses
-
-- Determinant
-- Minor and Cofactor
-- Adjoint of a Matrix
-- Inverse of a Matrix
-
-### Advanced Matrix Concepts
-
-- Rank of a Matrix
-- Column Space and Null Space
-- Change of Basis
-- Solving a System of Linear Equations
-- Linear Transformations
-- 3D Linear Transformations
-- Matrix Multiplication as Composition
-- Linear Transformation of Non-square Matrices
-
-## Dot and Cross Products
-
-### Understanding Dot Product
-
-### Exploring Cross Product
-
-## Tensors
-
-### Introduction to Tensors
-
-- Importance of Tensors in Deep Learning
-- Tensor Operations
-- Data Representation using Tensors
-
-## Eigenvalues and Eigenvectors
-
-### Basics of Eigenvalues and Eigenvectors
-
-- Eigenfaces
-- Principal Component Analysis (PCA)
-
-## Matrix Factorization Techniques
-
-### Decomposition Methods
-
-- LU Decomposition
-- QR Decomposition
-- Eigen Decomposition
-- Singular Value Decomposition (SVD)
-- Non-Negative Matrix Factorization
-
-## Advanced Topics
-
-### Further Exploration in Linear Algebra
-
-- Moore-Penrose Pseudoinverse
-- Quadratic Forms
-- Positive Definite Matrices
-- Hadamard Product
-
----
-
-
-# Probability Roadmap for Data Science
-
-This roadmap provides an overview of essential probability concepts and theories pivotal for understanding and applying Machine Learning (ML) algorithms effectively. It is designed to equip learners with the foundational knowledge required to tackle problems involving uncertainty and make informed decisions based on data.
+This roadmap is designed to help learners and practitioners navigate through the key concepts and operations relevant to ML algorithms and data structures.
 
 ## Table of Contents
 
-- [What is Probability?](#what-is-probability)
-- [Random Variable](#random-variable)
-- [Contingency Tables in Probability](#contingency-tables-in-probability)
-- [Bayes Theorem](#bayes-theorem)
+- [Introduction](#introduction)
+- [Linear Algebra Roadmap](#linear-algebra-roadmap)
+- [Probability Roadmap](#probability-roadmap)
+- [Statistics Roadmap](#statistics-roadmap)
+- [Contributing](#contributing)
 
-## What is Probability?
+## Introduction
 
-Probability offers a framework for quantifying the uncertainty of events derived from random experiments. It lays the groundwork for statistical inference in ML.
+This repository serves as a comprehensive guide to understanding Linear Algebra, Probability, and Statistics in the context of Data Science and Machine Learning. Whether you're new to the field or looking to deepen your knowledge, this roadmap covers all the essential topics and provides resources for further exploration.
 
-### Basic Concepts
+## Linear Algebra Roadmap
 
-- **Random Experiment**: An experiment with an outcome that cannot be predicted with certainty.
-- **Trial**: A single execution of a random experiment.
-- **Outcome**: The result of a random experiment trial.
-- **Sample Space**: The set of all possible outcomes.
-- **Event**: A specific outcome or a set of outcomes of interest.
+### Scalars
 
-### Understanding Events
+- What are Scalars?
 
-- **Types of Events**
-- **Empirical Probability Vs Theoretical Probability**
+### Vectors
 
-## Random Variable
+- Introduction to Vectors
+  - Row Vector and Column Vector
+- Vector Operations
+  - Distance from Origin
+  - Euclidean Distance between 2 Vectors
+  - Scalar and Vector Addition/Subtraction (Shifting)
+  - Scalar and Vector Multiplication/Division (Scaling)
+  - Vector and Vector Addition/Subtraction
+- Advanced Vector Operations
+  - Dot Product of 2 Vectors
+  - Angle between 2 Vectors
+  - Unit Vectors
+  - Projection of a Vector
+  - Basis Vectors
+- Vector Properties
+  - Equation of a Line in n-Dimensions
+  - Vector Norms
+  - Linear Independence
+  - Vector Spaces
 
-A random variable is a variable whose possible values are numerical outcomes of a random phenomenon.
+### Matrices
 
-### Introduction to Random Variables
+- Foundations of Matrices
+  - What are Matrices?
+  - Types of Matrices
+    - Orthogonal Matrices
+    - Symmetric Matrices
+    - Diagonal Matrices
+- Matrix Operations
+  - Matrix Equality
+  - Scalar Operations on Matrices
+  - Matrix Addition and Subtraction
+  - Matrix Multiplication
+  - Transpose of a Matrix
+- Determinants and Inverses
+  - Determinant
+  - Minor and Cofactor
+  - Adjoint of a Matrix
+  - Inverse of a Matrix
+- Advanced Matrix Concepts
+  - Rank of a Matrix
+  - Column Space and Null Space
+  - Change of Basis
+  - Solving a System of Linear Equations
+  - Linear Transformations
+  - 3D Linear Transformations
+  - Matrix Multiplication as Composition
+  - Linear Transformation of Non-square Matrices
 
-- **What is a Random Variable?**
+### Dot and Cross Products
 
-### Distribution and Measures
+- Understanding Dot Product
+- Exploring Cross Product
 
-- **Probability Distribution of a Random Variable**
-- **Mean of a Random Variable**
-- **Variance of a Random Variable**
+### Tensors
 
-## Contingency Tables in Probability
+- Introduction to Tensors
+  - Importance of Tensors in Deep Learning
+  - Tensor Operations
+  - Data Representation using Tensors
 
-Contingency tables, along with Venn diagrams and formulas, offer a visual and analytical approach to understanding the relationships between multiple events.
+### Eigenvalues and Eigenvectors
 
-### Visualization and Calculation
+- Basics of Eigenvalues and Eigenvectors
+  - Eigenfaces
+  - Principal Component Analysis (PCA)
 
-- **Venn Diagrams**
-- **Joint Probability**
-- **Marginal Probability**
-- **Conditional Probability**
+### Matrix Factorization Techniques
 
-## Bayes Theorem
+- Decomposition Methods
+  - LU Decomposition
+  - QR Decomposition
+  - Eigen Decomposition
+  - Singular Value Decomposition (SVD)
+  - Non-Negative Matrix Factorization
 
-Bayes Theorem is a fundamental theorem that describes the probability of an event, based on prior knowledge of conditions that might be related to the event.
+### Advanced Topics
 
-### Events and Probabilities
+- Further Exploration in Linear Algebra
+  - Moore-Penrose Pseudoinverse
+  - Quadratic Forms
+  - Positive Definite Matrices
+  - Hadamard Product
 
-- **Independent Events**
-- **Mutually Exclusive Events**
-- **Bayes Theorem**
+## Probability Roadmap
 
----
+### What is Probability?
 
-# Statistics Roadmap in Data Science
+- Basic Terms like Random Experiment, Trial, Outcome, Sample Space, Event
+- Types of Events
+- Empirical Probability Vs Theoretical Probability
 
-Statistics are fundamental to data science, providing the tools to understand, interpret, and make predictions from data. This roadmap offers a structured approach to navigating the extensive field of statistics for enthusiasts and professionals in data science.
+### Random Variable
 
-## Table of Contents
+- What is a Random Variable
+  - Probability Distribution of a Random Variable
+  - Mean of a Random Variable
+  - Variance of a Random Variable
 
-- [Descriptive Statistics](#descriptive-statistics)
-- [Correlation](#correlation)
-- [Probability Distributions](#probability-distributions)
-- [Types of Probability Distributions](#types-of-probability-distributions)
-- [Confidence Intervals](#confidence-intervals)
-- [Central Limit Theorem](#central-limit-theorem)
-- [Hypothesis Tests](#hypothesis-tests)
-- [Types of Hypothesis Tests](#types-of-hypothesis-tests)
-- [Miscellaneous Topics](#miscellaneous-topics)
+### Contingency Tables in Probability
 
-## Descriptive Statistics
+- Venn Diagrams
+- Joint Probability
+- Marginal Probability
+- Conditional Probability
 
-Descriptive statistics provide initial insights into data through various metrics and visualizations.
+### Bayes Theorem
 
-### Fundamentals
+- Independent Events
+- Mutually Exclusive Events
+- Bayes Theorem
+
+## Statistics Roadmap
+
+### Descriptive Statistics
+
 - What is Stats/Types of Stats
 - Population Vs Sample
 - Types of Data
-
-### Measures of Central Tendency
-- Mean
-- Median
-- Mode
-- Weighted Mean
-- Trimmed Mean
-
-### Measure of Dispersion
-- Range
-- Variance
-- Standard Deviation
-- Coefficient of Variation
-
-### Other Measures
+- Measures of Central Tendency
+  - Mean
+  - Median
+  - Mode
+  - Weighted Mean 
+  - Trimmed Mean 
+- Measure of Dispersion
+  - Range
+  - Variance
+  - Standard Deviation
+  - Coefficient of Variation
 - Quantiles and Percentiles
 - 5 number summary and BoxPlot
 - Skewness
 - Kurtosis
+- Plotting Graphs
+  - Univariate Analysis
+  - Bivariate Analysis
+  - Multivariate Analysis
 
-### Plotting Graphs
-- Univariate Analysis
-- Bivariate Analysis
-- Multivariate Analysis
-
-## Correlation
-
-Examines the relationship between variables to understand how they may influence one another.
+### Correlation
 
 - Covariance
 - Covariance Matrix
 - Pearson Correlation Coefficient
-- Spearman Correlation Coefficient
+- Spearman Correlation Coefficient 
 - Correlation and Causation
 
-## Probability Distributions
+### Probability Distributions
 
-Discusses the mathematical functions that describe all possible values and likelihoods for a random variable.
-
-### Understanding Distributions
 - Random Variables
 - What are Probability Distributions
-- Probability Distribution Functions and its types
-
-### Key Concepts
-- Probability Mass Function (PMF)
-- CDF of PMF
-- Probability Density Function (PDF)
-- CDF of PDF
-- Density Estimation
-- Parametric vs Non-Parametric Density Estimation
-- Kernel Density Estimation (KDE)
-- Using PDF/PMF and CDF in Analysis
+- Why are Probability Distributions important
+- Probability Distribution Functions and it's types
+  - Probability Mass Function (PMF)
+  - CDF of PMF
+  - Probability Density Function(PDF)
+  - CDF of PDF
+  - Density Estimation 
+  - Parametric Density Estimation 
+  - Non-Parametric Density Estimation 
+  - Kernel Density Estimation(KDE) 
+- How to use PDF/PMF and CDF in Analysis
 - 2D Density Plots
 
-## Types of Probability Distributions
-
-Explores various probability distributions in detail.
+### Types of Probability Distributions
 
 - Normal Distribution
+  - Properties of Normal Distribution
+  - CDF of Normal Distribution
+  - Standard Normal Variate
 - Uniform Distribution
 - Bernoulli Distribution
 - Binomial Distribution
+- Multinomial Distribution
+- Log Normal Distribution
+- Pareto Distribution 
+- Chi-square Distribution
+- Student's T Distribution
+- Poisson Distribution 
+- Beta Distribution 
+- Gamma Distribution 
+- Transformations
 
-## Confidence Intervals
-
-Explains how to determine the range within which a population parameter lies with a certain confidence level.
+### Confidence Intervals
 
 - Point Estimates
 - Confidence Intervals
+  - Confidence Interval(Sigma Known)
+  - Confidence Interval(Sigma Unknown)
 - Interpreting Confidence Interval
-- Margin of Error
+- Margin of Error and factors affecting it
 
-## Central Limit Theorem
-
-Describes the distribution of sample means and its significance in statistical methods.
+### Central Limit Theorem
 
 - Sampling Distribution
 - What is CLT
 - Standard Error
 
-## Hypothesis Tests
-
-Framework for testing assumptions and making decisions using data.
+### Hypothesis Tests
 
 - What is Hypothesis Testing?
 - Null and Alternate Hypothesis
+- Steps involved in a Hypothesis Test
+- Performing Z-test
+- Rejection Region Approach
+- Type 1 Vs Type 2 Errors
+- One Sided vs 2 sided tests
+- Statistical Power
+- P-value
+- How to interpret P-values
 
-## Types of Hypothesis Tests
-
-Overview of various statistical tests used for inference about population properties.
+### Types of Hypothesis Tests
 
 - Z-test
 - T-test
+  - Single Sample T-test
+  - Independent 2 sample t-test
+  - Paired 2 sample t-test
 - Chi-square Test
+- Chi-square Goodness of Fit Test
+- Chi-square Test of Independence
 - ANOVA
+  - One Way Anova
+  - Two Way Anova
+- F-test
+- Levene Test 
+- Shapiro Wilk Test 
+- K-S Test 
+- Fisher's Test 
 
-## Miscellaneous Topics
+### Miscellaneous Topics
 
-Covers advanced topics and techniques for deeper statistical insights and analysis.
-
-- Chebyshev's Inequality
+- Chebyshev's Inequality 
 - QQ Plot
-- Sampling and Resampling Techniques
-- Standardization and Normalization
-- Statistical Moments
+- Sampling
+- Resampling Techniques
+- Bootstraping 
+- Standardization
+- Normalization
+- Statistical Moments 
 - Bayesian Statistics
 - A/B Testing
 - Law of Large Numbers
 
+## Contributing
+
+Contributions to this repository are welcome! If you find any errors, have suggestions for improvement, or want to add new topics, feel free to fork this repository, make your changes, and submit a pull request. Let's collaborate to make this resource even better.
 
 
+ 
