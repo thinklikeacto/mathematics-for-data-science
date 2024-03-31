@@ -1,4 +1,4 @@
-# Linear Algebra Roadmap for Machine Learning
+# Linear Algebra Roadmap for Data Science
 
 This roadmap offers a comprehensive guide to the fundamental and advanced topics in Linear Algebra essential for Machine Learning (ML). It is designed to help learners and practitioners navigate through the key concepts and operations relevant to ML algorithms and data structures.
 
@@ -125,7 +125,7 @@ This roadmap offers a comprehensive guide to the fundamental and advanced topics
 ---
 
 
-# Probability Roadmap for Machine Learning
+# Probability Roadmap for Data Science
 
 This roadmap provides an overview of essential probability concepts and theories pivotal for understanding and applying Machine Learning (ML) algorithms effectively. It is designed to equip learners with the foundational knowledge required to tackle problems involving uncertainty and make informed decisions based on data.
 
@@ -189,5 +189,143 @@ Bayes Theorem is a fundamental theorem that describes the probability of an even
 - **Bayes Theorem**
 
 ---
+
+# Statistics Roadmap in Data Science
+
+Statistics are fundamental to data science, providing the tools to understand, interpret, and make predictions from data. This roadmap offers a structured approach to navigating the extensive field of statistics for enthusiasts and professionals in data science.
+
+## Table of Contents
+
+- [Descriptive Statistics](#descriptive-statistics)
+- [Correlation](#correlation)
+- [Probability Distributions](#probability-distributions)
+- [Types of Probability Distributions](#types-of-probability-distributions)
+- [Confidence Intervals](#confidence-intervals)
+- [Central Limit Theorem](#central-limit-theorem)
+- [Hypothesis Tests](#hypothesis-tests)
+- [Types of Hypothesis Tests](#types-of-hypothesis-tests)
+- [Miscellaneous Topics](#miscellaneous-topics)
+
+## Descriptive Statistics
+
+Descriptive statistics provide initial insights into data through various metrics and visualizations.
+
+### Fundamentals
+- What is Stats/Types of Stats
+- Population Vs Sample
+- Types of Data
+
+### Measures of Central Tendency
+- Mean
+- Median
+- Mode
+- Weighted Mean
+- Trimmed Mean
+
+### Measure of Dispersion
+- Range
+- Variance
+- Standard Deviation
+- Coefficient of Variation
+
+### Other Measures
+- Quantiles and Percentiles
+- 5 number summary and BoxPlot
+- Skewness
+- Kurtosis
+
+### Plotting Graphs
+- Univariate Analysis
+- Bivariate Analysis
+- Multivariate Analysis
+
+## Correlation
+
+Examines the relationship between variables to understand how they may influence one another.
+
+- Covariance
+- Covariance Matrix
+- Pearson Correlation Coefficient
+- Spearman Correlation Coefficient
+- Correlation and Causation
+
+## Probability Distributions
+
+Discusses the mathematical functions that describe all possible values and likelihoods for a random variable.
+
+### Understanding Distributions
+- Random Variables
+- What are Probability Distributions
+- Probability Distribution Functions and its types
+
+### Key Concepts
+- Probability Mass Function (PMF)
+- CDF of PMF
+- Probability Density Function (PDF)
+- CDF of PDF
+- Density Estimation
+- Parametric vs Non-Parametric Density Estimation
+- Kernel Density Estimation (KDE)
+- Using PDF/PMF and CDF in Analysis
+- 2D Density Plots
+
+## Types of Probability Distributions
+
+Explores various probability distributions in detail.
+
+- Normal Distribution
+- Uniform Distribution
+- Bernoulli Distribution
+- Binomial Distribution
+- ... (Additional distributions listed in the curriculum)
+
+## Confidence Intervals
+
+Explains how to determine the range within which a population parameter lies with a certain confidence level.
+
+- Point Estimates
+- Confidence Intervals
+- Interpreting Confidence Interval
+- Margin of Error
+
+## Central Limit Theorem
+
+Describes the distribution of sample means and its significance in statistical methods.
+
+- Sampling Distribution
+- What is CLT
+- Standard Error
+
+## Hypothesis Tests
+
+Framework for testing assumptions and making decisions using data.
+
+- What is Hypothesis Testing?
+- Null and Alternate Hypothesis
+- ... (Additional steps and concepts listed in the curriculum)
+
+## Types of Hypothesis Tests
+
+Overview of various statistical tests used for inference about population properties.
+
+- Z-test
+- T-test
+- Chi-square Test
+- ANOVA
+- ... (Further tests listed in the curriculum)
+
+## Miscellaneous Topics
+
+Covers advanced topics and techniques for deeper statistical insights and analysis.
+
+- Chebyshev's Inequality
+- QQ Plot
+- Sampling and Resampling Techniques
+- Standardization and Normalization
+- Statistical Moments
+- Bayesian Statistics
+- A/B Testing
+- Law of Large Numbers
+
 
 
