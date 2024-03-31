@@ -72,11 +72,9 @@ This repository is crafted as an exhaustive resource for grasping the mathematic
   - 3D Linear Transformations
   - Matrix Multiplication as Composition
   - Linear Transformation of Non-square Matrices
-
-### Dot and Cross Products
-
-- Understanding Dot Product
-- Exploring Cross Product
+- Dot and Cross Products
+  - Understanding Dot Product
+  - Exploring Cross Product
 
 ### Tensors
 
