@@ -121,3 +121,73 @@ This roadmap offers a comprehensive guide to the fundamental and advanced topics
 - Quadratic Forms
 - Positive Definite Matrices
 - Hadamard Product
+
+---
+
+
+# Probability Roadmap for Machine Learning
+
+This roadmap provides an overview of essential probability concepts and theories pivotal for understanding and applying Machine Learning (ML) algorithms effectively. It is designed to equip learners with the foundational knowledge required to tackle problems involving uncertainty and make informed decisions based on data.
+
+## Table of Contents
+
+- [What is Probability?](#what-is-probability)
+- [Random Variable](#random-variable)
+- [Contingency Tables in Probability](#contingency-tables-in-probability)
+- [Bayes Theorem](#bayes-theorem)
+
+## What is Probability?
+
+Probability offers a framework for quantifying the uncertainty of events derived from random experiments. It lays the groundwork for statistical inference in ML.
+
+### Basic Concepts
+
+- **Random Experiment**: An experiment with an outcome that cannot be predicted with certainty.
+- **Trial**: A single execution of a random experiment.
+- **Outcome**: The result of a random experiment trial.
+- **Sample Space**: The set of all possible outcomes.
+- **Event**: A specific outcome or a set of outcomes of interest.
+
+### Understanding Events
+
+- **Types of Events**
+- **Empirical Probability Vs Theoretical Probability**
+
+## Random Variable
+
+A random variable is a variable whose possible values are numerical outcomes of a random phenomenon.
+
+### Introduction to Random Variables
+
+- **What is a Random Variable?**
+
+### Distribution and Measures
+
+- **Probability Distribution of a Random Variable**
+- **Mean of a Random Variable**
+- **Variance of a Random Variable**
+
+## Contingency Tables in Probability
+
+Contingency tables, along with Venn diagrams and formulas, offer a visual and analytical approach to understanding the relationships between multiple events.
+
+### Visualization and Calculation
+
+- **Venn Diagrams**
+- **Joint Probability**
+- **Marginal Probability**
+- **Conditional Probability**
+
+## Bayes Theorem
+
+Bayes Theorem is a fundamental theorem that describes the probability of an event, based on prior knowledge of conditions that might be related to the event.
+
+### Events and Probabilities
+
+- **Independent Events**
+- **Mutually Exclusive Events**
+- **Bayes Theorem**
+
+---
+
+
