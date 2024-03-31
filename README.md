@@ -277,7 +277,6 @@ Explores various probability distributions in detail.
 - Uniform Distribution
 - Bernoulli Distribution
 - Binomial Distribution
-- ... (Additional distributions listed in the curriculum)
 
 ## Confidence Intervals
 
@@ -302,7 +301,6 @@ Framework for testing assumptions and making decisions using data.
 
 - What is Hypothesis Testing?
 - Null and Alternate Hypothesis
-- ... (Additional steps and concepts listed in the curriculum)
 
 ## Types of Hypothesis Tests
 
@@ -312,7 +310,6 @@ Overview of various statistical tests used for inference about population proper
 - T-test
 - Chi-square Test
 - ANOVA
-- ... (Further tests listed in the curriculum)
 
 ## Miscellaneous Topics
 
